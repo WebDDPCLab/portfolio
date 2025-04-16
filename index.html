@@ -10,7 +10,7 @@
 
 <body>
     <!--header section (specially for navigation bar)-->
-    <header>
+    <header id="home">
         <nav>
             <ul class="sidenav"> <!--sidenav bar-->
                 <li onclick="hidenav()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
@@ -18,17 +18,17 @@
                             <path
                                 d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                         </svg></a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About-Us</a></li>
-                <li><a href="#">Contact-Us</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About-Us</a></li>
+                <li><a href="contact">Contact-Us</a></li>
             </ul>
             <ul>
                 <li><a href="#" class="logo">LogoText</a></li> <!--logo-->
 
                 <!--desktopnav-->
-                <li class="MobileMode"><a href="#">Home</a></li>
-                <li class="MobileMode"><a href="#">About-Us</a></li>
-                <li class="MobileMode"><a href="#">Contact-Us</a></li>
+                <li class="MobileMode"><a href="home">Home</a></li>
+                <li class="MobileMode"><a href="about">About-Us</a></li>
+                <li class="MobileMode"><a href="contact">Contact-Us</a></li>
 
                 <!--sidenav button-->
                 <li onclick="sidenav()" id="desktopMode"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
 
 
     <!--about us-->
-    <section class="about">
+    <section id="about" class="about">
         <h1>About Us</h1>
         <div class="content">
             <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, libero mollitia tempore
@@ -154,7 +154,7 @@
 
 
     <!--Contact section-->
-    <section class="contact">
+    <section id="contact" class="contact">
         <h1>Let's Chat!</h1>
         <p>click to connect with us</p>
         <div class="contact-box">
