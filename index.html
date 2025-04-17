@@ -18,17 +18,17 @@
                             <path
                                 d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                         </svg></a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About-Us</a></li>
-                <li><a href="#">Contact-Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About-Us</a></li>
+                <li><a href="#contact">Contact-Us</a></li>
             </ul>
             <ul>
-                <li><a href="#" class="logo">LogoText</a></li> <!--logo-->
+                <li><a href="#home" class="logo">LogoText</a></li> <!--logo-->
 
                 <!--desktopnav-->
-                <li class="MobileMode"><a href="#">Home</a></li>
-                <li class="MobileMode"><a href="#">About-Us</a></li>
-                <li class="MobileMode"><a href="#">Contact-Us</a></li>
+                <li class="MobileMode"><a href="#home">Home</a></li>
+                <li class="MobileMode"><a href="#about">About-Us</a></li>
+                <li class="MobileMode"><a href="#contact">Contact-Us</a></li>
 
                 <!--sidenav button-->
                 <li onclick="sidenav()" id="desktopMode"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@
     <!--main body content-->
 
     <!--welcome image-->
-    <div class="welcome">
+    <div class="welcome" id="home">
         <div class="slides">
             <img src="form.jpg" alt="welcome image">
         </div>
@@ -52,7 +52,7 @@
 
 
     <!--about us-->
-    <section class="about">
+    <section class="about" id="about">
         <h1>About Us</h1>
         <div class="content">
             <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, libero mollitia tempore
@@ -83,7 +83,7 @@
     </section>
 
     <!--services-->
-    <section class="services">
+    <section class="services" id="service">
         <h1 class="seh1">Services</h1>
 
         <div class="flex-items flex-row flexColInMobile">
@@ -154,7 +154,7 @@
 
 
     <!--Contact section-->
-    <section class="contact">
+    <section class="contact" id="contact">
         <h1>Let's Chat!</h1>
         <p>click to connect with us</p>
         <div class="contact-box">
@@ -221,10 +221,10 @@
         <footer>
             <p>&copy; 2025; <span class="cname">Our Company</span>.inc</p>
             <div class="fnav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">service</a>
-                <a href="#">contact</a>
+                <a href="#homed">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">service</a>
+                <a href="#contact">contact</a>
             </div>
             <div class="social-icon">
                 <!--whatsapp-->
